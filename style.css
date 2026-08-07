@@ -120,6 +120,9 @@ nav{
 section{padding:64px 0;}
 section.bordered{border-bottom:1px solid var(--border);}
 .section-title{font-family:var(--display); font-size:28px; font-weight:700; margin:0 0 16px; letter-spacing:-0.4px;}
+.section-title-row{display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;}
+.section-title-row .section-title{margin:0 0 16px;}
+.btn-sm{padding:9px 16px; font-size:12px; white-space:nowrap;}
 
 /* orbit divider */
 .orbit-divider{
