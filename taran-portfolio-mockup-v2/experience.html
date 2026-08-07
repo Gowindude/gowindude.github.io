@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience | Taran Govindu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="space-bg">
+  <div class="stars-layer stars-small"></div>
+  <div class="stars-layer stars-med"></div>
+  <div class="stars-layer stars-big"></div>
+  <div class="vignette"></div>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <div class="brand"><span class="orbit"></span>TARAN GOVINDU</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="experience.html" class="active">Experience</a>
+      <a href="resume.html">Resume</a>
+      <div class="nav-icons">
+        <a href="https://www.linkedin.com/in/taran-govindu/" target="_blank">in</a>
+        <a href="https://github.com/Gowindude" target="_blank">gh</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding:64px 0 44px;">
+  <div class="wrap">
+    <div class="eyebrow">Career</div>
+    <h1 style="font-size:36px;">Experience</h1>
+    <p class="tagline">Research, engineering, and founding roles across GNC, simulation, propulsion, and autonomy.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+
+    <div class="eyebrow">Current</div>
+
+    <div class="exp-item">
+      <div class="exp-date">June 2026 – Present</div>
+      <div>
+        <div class="exp-role">Researcher</div>
+        <div class="exp-org">Intelligent Cyber-Physical Systems (ICPS) Laboratory, Georgia Tech · Atlanta, GA</div>
+        <ul>
+          <li>Reproduced a Python control framework that switches a model-based LQR to an RL-augmented controller once real-time mismatch with the true nonlinear plant crosses an optimality-based threshold</li>
+          <li>Extended the framework to a rocket pitch-attitude example across three tiers of complexity: aerodynamic nonlinearity, mass-burn dynamics, and propellant slosh, verifying learned gains converged to the analytic optimum within 5%</li>
+          <li>Porting the same switching framework to a simulated quadrotor, deriving a full nonlinear hover model and LQR controller from measured motor/inertia properties for hardware deployment</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">Jan 2026 – Present</div>
+      <div>
+        <div class="exp-role">GNC &amp; Propulsion Feed System Engineer</div>
+        <div class="exp-org">Propulsive Landers Rocket Team, Georgia Tech · Atlanta, GA</div>
+        <ul>
+          <li>Designed a custom servo-actuated ball valve in SolidWorks for the propulsion feed system, cutting actuator mass ~85% (~16 lbs saved across 4 valves) while meeting launch mass constraints</li>
+          <li>Modeled high-fidelity aerodynamics with a Gauss-Markov gust model and coefficient lookup tables in the team's 6-DOF Rust simulation, a testbed for GNC algorithms on the propulsive-landing rocket</li>
+          <li>Integrated valve actuation dynamics and pressure transducer response as PFS models and wired the reaction control system (RCS) valves into roll-axis control</li>
+          <li>Conducted component trade studies (cost, material compatibility, mass, performance limits) to guide part selection and ensure reliable operation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">Jan – June 2026</div>
+      <div>
+        <div class="exp-role">Researcher</div>
+        <div class="exp-org">Exascale CFD VIP, Georgia Tech · Atlanta, GA</div>
+        <ul>
+          <li>Extended a 1D Godunov scheme to a full 2D solver for the Burgers' equation with built-in conservation and stability checks, generating benchmark data for ML surrogate models</li>
+          <li>Implemented canonical test cases (Gaussian pulse, N-wave, others) and a tool to compare how Godunov and Lax-Wendroff schemes smooth sharp features across viscosity levels</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">Dec 2025 – Present</div>
+      <div>
+        <div class="exp-role">Co-Founder &amp; CTO</div>
+        <div class="exp-org">Verus · Atlanta, GA</div>
+        <ul>
+          <li>Conducted 40+ customer discovery interviews and demos with construction/facilities teams to validate analysis requirements and iterate on feedback</li>
+          <li>Built a CNN-based classifier in Python to detect subsurface delamination in bridge decks from GPR data; built a synthetic data pipeline (gprMax FDTD) generating ~50,000 labeled training signals</li>
+          <li>Secured $150,000 in funding ($1.5M valuation) from Fusen World + $5,000 from Georgia Tech Create-X; accepted into GT's I2P program, top ~10% of YC Winter 2025 applicants</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:12px; padding-top:44px;">
+      <div class="orbit-divider"><span class="node"></span><span class="line"></span></div>
+      <div class="eyebrow">Past <span class="idx">not on LinkedIn</span></div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">2025 – 2026</div>
+      <div>
+        <div class="exp-role">Autonomous Drone Engineer</div>
+        <div class="exp-org">RoboNav (Drone Subteam) · Atlanta, GA</div>
+        <ul>
+          <li>Designed foldable landing gear and arm mechanisms in SolidWorks, cutting transport volume ~30% while maintaining structural integrity</li>
+          <li>Developed part lists, documentation, and electrical layouts to streamline assembly and sensor integration</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">2025 – 2026</div>
+      <div>
+        <div class="exp-role">Aerodynamics Engineer</div>
+        <div class="exp-org">HyTech Racing · Atlanta, GA</div>
+        <ul>
+          <li>Modeled and evaluated rear wing airfoils in CATIA and ANSYS Fluent to maximize downforce while minimizing drag</li>
+          <li>Performed mesh refinement studies and parametric sweeps to analyze aerodynamic sensitivity to angle of attack</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">Summer 2023</div>
+      <div>
+        <div class="exp-role">Machine Learning Intern</div>
+        <div class="exp-org">Spotline Inc. · Fremont, CA</div>
+        <ul>
+          <li>Built a CNN-based model (TensorFlow/Keras) to predict diabetes diagnoses at 90% accuracy using data from ~1,000 patients</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item" style="border-bottom:none;">
+      <div class="exp-date">2023</div>
+      <div>
+        <div class="exp-role">Theoretical Physics Researcher</div>
+        <div class="exp-org">KU Leuven University · Remote</div>
+        <ul>
+          <li>First-authored a manuscript published in a peer-reviewed journal, clarifying complex general relativity concepts around black hole spacetime for broader accessibility</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; align-items:center;">
+    <div>© 2026 Taran Govindu</div>
+    <div class="footer-links">
+      <a href="mailto:tgovindu6@gatech.edu">Email</a>
+      <a href="https://www.linkedin.com/in/taran-govindu/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Gowindude" target="_blank">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
